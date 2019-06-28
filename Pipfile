@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+beautifulsoup4 = "*"
+flask = "*"
+jinja2 = "*"
+passlib = "*"
+pymongo = "*"
+requests = "*"
+werkzeug = "*"
+uwsgi = "*"
+
+[requires]
+python_version = "3.7"

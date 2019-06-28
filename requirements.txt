@@ -1,0 +1,8 @@
+beautifulsoup4==4.7.1
+flask==1.0.2
+jinja2==2.10.1
+passlib==1.7.1
+pymongo==3.7.2
+requests==2.21.0
+werkzeug==0.15.2
+uWSGI==2.0.18
