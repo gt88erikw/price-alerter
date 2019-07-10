@@ -26,6 +26,8 @@ def create_store():
 
         Store(name, url_prefix, tag_name, query).save_to_mongo()
 
+        return redirect(url_for('.index'))
+
     return render_template('stores/new_store.html')
 
 
